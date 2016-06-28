@@ -3,10 +3,12 @@ C# Class library pulling jobs from Indeed and Careerjet APIs
 *More job board APIs to be added soon (Contributions are much appreciated)*
 
 ##Usage
-First you need to register a publisher account from [CareerJet](http://www.careerjet.com/advertise/) and/or [Indeed](http://www.indeed.com/publisher)
+First you need to register a publisher account from [CareerJet]
+(http://www.careerjet.com/advertise/) and/or [Indeed](http://www.indeed.com/publisher)
 
 ##Calling
-
+	    Imports JobBoard.Engines
+	    
             Dim searchApi As New SearchEngine()
             With searchApi
 	        
