@@ -23,6 +23,6 @@ First you need to register a publisher account from [CareerJet]
     
             End With
             Dim results As New JobBoard.Engines.Models.SearchResults
-            results = searchApi.Search(keyword, country, city, count, pageno, "date")
+            results = searchApi.Search(keyword, countryIso, city, count, pageno, "date")
 
 
